@@ -1,0 +1,12 @@
+SOME CPP  BASICS
+
+WHAT IS STD?
+-> it is a standard namespace provided by a cpp standard library, which inclues generic functions like cout, cin, sort etc..
+-> if we use standard namespace in our program all these names will come out to a global scope and might conflict with our local namings.
+-> so we avoid "using namespace std".
+-> now to access all the functions from a standard library we have to use std::fn_name(), it just telling to use a fn_name from a std library.
+
+HOW TO COMPILE AND RUN?
+-> to compile a program in terminal type the command 'g++ filename.cpp -o exec_file'.
+-> g++ is a compiler for compiling cpp programs.
+-> to execute navigate to exec_file in this case ./exec_file and enter.
