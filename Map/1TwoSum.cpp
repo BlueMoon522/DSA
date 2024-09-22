@@ -1,6 +1,7 @@
 // TWO SUM
 #include <iostream>
 #include <vector>
+#include <unordered_map>
 
 class Solution
 {
@@ -25,10 +26,23 @@ public:
         }
         return {};
     }
+  // COMPLEXITY: O(N); RUNTIME: 10MS; BEATS:48.42%
+    std::vector<int> two_sum_hashmap(std::vector<int> &nums, int target)
+    {
+        std::unordered_map<int, int> hashmap;
+        int vec_size = nums.size();
+        for(int i=0;i<vec_size; i++){
+            hashmap[nums[i]] = i;
+        }
+        for(int i =0 ;i<vec_size;i++){
+            int difference = target - nums[i];
+            if(hashmap[difference] && hashmap[difference]!=i){
+                return {hashmap[difference], i};
+            }
+        }
+   return {};
 
-    std::vector<int> two_sum_hashmap(std::vector<int> &nums, int target){
-
-    }
+    };
 };
 
 int main()

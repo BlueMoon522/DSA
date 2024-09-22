@@ -1,4 +1,3 @@
-1.start file name with question number on leetcode, like 1.py for two sum, 
-2.question title at the top of a file all cap.
-3.after solving a question write all the stats like exec speed, memory, at the top.
-4.easy qn in easy dir and so on.
+1. Start filename with question number from leetcode followed by question name, eg: 1TwoSum 
+2. Directories are seperated by topics, so TwoSum solved using hashmap will be in Map directory.
+3. After solving write all the stats like complexity, speed, memory at the top of a file.

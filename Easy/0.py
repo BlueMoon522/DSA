@@ -1,1 +1,0 @@
-print('HELLO FROM 0 FILE')

@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/bishwas/Desktop/DSA/data-Structures-Any/Easy",
-      "program": "/home/bishwas/Desktop/DSA/data-Structures-Any/Easy/build/Debug/outDebug",
+      "cwd": "/home/bishwas/Desktop/DSA/Easy",
+      "program": "/home/bishwas/Desktop/DSA/Easy/build/Release/outRelease",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
