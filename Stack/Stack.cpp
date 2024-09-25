@@ -16,8 +16,9 @@ public:
 			pointer++;
 			stack[pointer] = item;
 		}
-		else{
-		std::cout << "ARRAY LIMIT EXCEEDED \n";
+		else
+		{
+			std::cout << "ARRAY LIMIT EXCEEDED \n";
 		}
 	}
 
@@ -27,8 +28,9 @@ public:
 		{
 			std::cout << "NO ITEMS TO POP";
 		}
-		else{
-		pointer--;
+		else
+		{
+			pointer--;
 		}
 	}
 
@@ -44,7 +46,9 @@ public:
 		}
 	}
 };
+class Q{
 
+};
 int main()
 {
 	Stack stack_obj = Stack();
